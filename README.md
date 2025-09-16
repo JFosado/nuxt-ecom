@@ -9,11 +9,12 @@ El objetivo de este proyecto es proporcionar una base limpia y lista para inicia
 ---
 
 ## Tecnologías utilizadas
+<div align="center">
+  <img src=" https://img.shields.io/badge/nuxt%20js-00C58E?style=for-the-badge&logo=nuxtdotjs&logoColor=white" alt="Typescript">
+  <img src="  https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="Typescript">
+ 
 
-- **[Nuxt.js](https://nuxt.com/)**: Framework moderno para aplicaciones Vue.js con renderizado universal.
-- **[Tailwind CSS](https://tailwindcss.com/)**: Framework CSS altamente configurable para estilos utilitarios.
-- **[Pinia](https://pinia.vuejs.org/)**: Librería de gestión de estado para Vue.js moderna y ligera.
-
+</div>
 ---
 
 ## Setup
