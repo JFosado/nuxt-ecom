@@ -10,9 +10,7 @@
       <p class="text-lg text-gray-600 mb-6">
         Discover the best products at unbeatable prices. Shop now and enjoy exclusive deals!
       </p>
-      <button class="px-6 py-3 bg-purple-600 text-white rounded-lg shadow hover:bg-blue-700 transition">
-        Shop Now
-      </button>
+     
     </div>
     <!-- Right Column -->
     <div class="w-full md:w-1/2 flex justify-center">
@@ -30,5 +28,5 @@
 </template>
 
 <script setup>
-// No script needed for static hero
+
 </script>
