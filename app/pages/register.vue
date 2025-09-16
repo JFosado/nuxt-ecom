@@ -23,7 +23,7 @@
         <div v-if="success" class="mb-4 text-green-600 text-sm">{{ success }}</div>
         <button
           type="submit"
-          class="w-full bg-purple-600 text-white py-2 rounded font-semibold hover:bg-purple-700 transition"
+          class="w-full bg-transparent text-black border border-black py-2 rounded font-semibold hover:bg-purple-700 transition"
           :disabled="loading"
         >
           {{ loading ? 'Registrando...' : 'Registrarse' }}

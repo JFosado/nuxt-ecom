@@ -14,7 +14,7 @@
         <div v-if="error" class="mb-4 text-red-600 text-sm">{{ error }}</div>
         <button
           type="submit"
-          class="w-full bg-purple-600 text-white py-2 rounded font-semibold hover:bg-purple-700 transition"
+          class="w-full bg-tranparent border border-black text-black py-2 rounded font-semibold hover:bg-purple-300 transition"
           :disabled="loading"
         >
           {{ loading ? 'Ingresando...' : 'Entrar' }}
