@@ -25,6 +25,7 @@
       <button @click="nextPage" class="px-3 py-2 border rounded">Siguiente</button>
     </div>
   </section>
+  <Footer/>
 </template>
 
 <script setup lang="ts">

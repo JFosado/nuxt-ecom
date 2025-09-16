@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-b from-gray-300 to-white overflow-hidden">
+  <div class="bg-gradient-to-b from-gray-400 to-white overflow-hidden">
     <section class="flex flex-col md:flex-row items-center justify-between px-6 py-16 mx-auto max-w-6xl relative">
       
       <!-- Left Column -->
