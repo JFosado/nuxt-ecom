@@ -1,10 +1,24 @@
 # Nuxt Minimal Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+**Autor:** Jose Angel Fosado Animas
+
+Este proyecto es un **frontend de un comercio electronico** utilizando **Nuxt.js**, **Tailwind CSS** y **Pinia** para la gestión de estado. El diseño original se encuentra disponible en [Figma](https://www.figma.com/design/Zg5PMdriPXzOCBVqIVrUdy/PropuestaWeb?node-id=4215-7255&p=f&t=cjyPy0iBc2lt1S7w-0).
+
+El objetivo de este proyecto es proporcionar una base limpia y lista para iniciar aplicaciones web con Nuxt, optimizada para desarrollo rápido y escalable.
+
+---
+
+## Tecnologías utilizadas
+
+- **[Nuxt.js](https://nuxt.com/)**: Framework moderno para aplicaciones Vue.js con renderizado universal.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Framework CSS altamente configurable para estilos utilitarios.
+- **[Pinia](https://pinia.vuejs.org/)**: Librería de gestión de estado para Vue.js moderna y ligera.
+
+---
 
 ## Setup
 
-Make sure to install dependencies:
+Instala las dependencias del proyecto usando tu gestor favorito:
 
 ```bash
 # npm
@@ -20,9 +34,24 @@ yarn install
 bun install
 ```
 
-## Development Server
+---
 
-Start the development server on `http://localhost:3000`:
+## Configuración de variables de entorno
+
+Para consumir correctamente el API, crea un archivo `.env` en la raíz del proyecto con la siguiente variable:
+
+```env
+NUXT_PUBLIC_API_BASE=https://api.escuelajs.co/api/v1
+```
+
+> **Explicación:**  
+> Usamos una variable de entorno pública (`NUXT_PUBLIC_API_BASE`) para definir la URL base del API. Esto permite cambiar fácilmente la URL en distintos entornos (desarrollo, staging, producción) sin modificar el código, y Nuxt automáticamente la expone en el frontend cuando se inicia la aplicación.
+
+---
+
+## Servidor de desarrollo
+
+Inicia el servidor de desarrollo en `http://localhost:3000`:
 
 ```bash
 # npm
@@ -38,9 +67,11 @@ yarn dev
 bun run dev
 ```
 
-## Production
+---
 
-Build the application for production:
+## Producción
+
+Construye la aplicación para producción:
 
 ```bash
 # npm
@@ -56,7 +87,7 @@ yarn build
 bun run build
 ```
 
-Locally preview production build:
+Vista previa de la build de producción:
 
 ```bash
 # npm
@@ -72,4 +103,9 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+---
+
+## Documentación adicional
+
+- [Documentación oficial de Nuxt](https://nuxt.com/docs/getting-started/introduction)  
+- [Guía de despliegue de Nuxt](https://nuxt.com/docs/getting-started/deployment)
